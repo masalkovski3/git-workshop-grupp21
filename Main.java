@@ -13,18 +13,21 @@ public class Main {
                 Emmi emmi = new Emmi();
                 emmi.hello();
                 emmi.food();
+                emmi.drink();
                 break;
 
             case "Linn":
                 linn linn = new linn();
                 linn.message();
                 linn.food();
+                linn.drink();
                 break;
 
             case "Amelie":
                 Amelie amelie = new Amelie();
                 amelie.amelie();
                 amelie.food();
+                amelie.drink();
                 break;
 
             default:
