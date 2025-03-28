@@ -2,3 +2,4 @@
 Repo for git workshop at MAU
 hej hej
 hejdå
+Bamse
