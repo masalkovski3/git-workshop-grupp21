@@ -6,4 +6,8 @@ public class linn {
     public void food(){
         System.out.println("Food is good");
     }
+
+    public void drink(){
+        System.out.println("mjölk");
+    }
 }
