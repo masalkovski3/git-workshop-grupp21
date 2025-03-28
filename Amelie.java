@@ -6,4 +6,8 @@ public class Amelie {
     public void food() {
         System.out.println("I am also food");
     }
+
+    public void drink(){
+        System.out.println("I am also drink");
+    }
 }
