@@ -12,16 +12,19 @@ public class Main {
             case "Emmi":
                 Emmi emmi = new Emmi();
                 emmi.hello();
+                emmi.food();
                 break;
 
             case "Linn":
                 linn linn = new linn();
                 linn.message();
+                linn.food();
                 break;
 
             case "Amelie":
                 Amelie amelie = new Amelie();
                 amelie.amelie();
+                amelie.food();
                 break;
 
             default:
