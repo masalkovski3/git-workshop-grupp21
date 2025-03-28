@@ -1,5 +1,5 @@
 # git-workshop-grupp21
 Repo for git workshop at MAU
-hej hej
+hej från emmi
 hejdå
 Bamse
