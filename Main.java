@@ -5,13 +5,28 @@ public class Main {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter your name: ");
+
         String name = scan.nextLine();
-        if (name == "emmi" || name == "linn") {
-            System.out.println("Hello hottie!");
-        } else {
-            System.out.println("Hello " + name + "!");
+
+        switch (name) {
+            case "Emmi":
+                Emmi emmi = new Emmi();
+                emmi.hello();
+                break;
+
+            case "Linn":
+                linn linn = new linn();
+                linn.message();
+                break;
+
+            case "Amelie":
+                Amelie amelie = new Amelie();
+                amelie.amelie();
+                break;
+
+            default:
+                System.out.println("Something went wrong");
         }
-        scan.close();
 
     }
 }
